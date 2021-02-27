@@ -1,0 +1,64 @@
+.navbar-brand img {
+	height: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #1ebba3;
+}
+
+.offset:before{
+	display:block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+#aboutrow {
+	padding-top: 4.8rem;
+	background-color:lightgrey;
+}
+#about .row {
+	//background-color: yellow;
+}
+#about img{
+	height: 10rem;
+	z-index: -1;
+}
+
+.companylogo {
+	height: 1.8rem;	
+}
+
+.aboutme {
+	//padding-left: 20;
+	margin-left: 0;
+	background-color:lightgrey;
+	font-family: 'Lato', sans-serif;
+	
+}
+.social .svg-inline--fa  {
+	color: #0f0f0f;
+}
+.skillmap{
+	font-size: .7rem;
+	font-weight: 400;
+	text-align: right;
+	font-family: Verdana;
+}
+
+blockquote {
+	margin: 1rem 0;
+}
+blockquote .svg-inline--fa {
+	color: #1ebba3;
+	margin: 2rem;
+}
+.clients-hr {
+	border-top: .05rem solid #1ebba3;
+}
